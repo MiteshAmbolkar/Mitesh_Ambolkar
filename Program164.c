@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 #pragma pack(1)
+
 struct node
 {
     int data;
@@ -9,8 +10,8 @@ struct node
 };
 
 typedef struct node NODE;
-typedef struct node * PNODE;
-typedef struct node ** PPNODE;
+typedef struct node* PNODE;
+typedef struct node** PPNODE;
 
 int main()
 {
@@ -20,7 +21,6 @@ int main()
     newn->next = NULL;
 
     printf("%d\n",newn->data);
-    printf("Size of structure %d\n",sizeof(NODE));
-
+    printf("Size of Structure is %d\n",sizeof(struct node));
     return 0;
 }

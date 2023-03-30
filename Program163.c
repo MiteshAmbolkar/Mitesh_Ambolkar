@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 #pragma pack(1)
+
 struct node
 {
     int data;
@@ -16,7 +17,6 @@ int main()
     newn->next = NULL;
 
     printf("%d\n",newn->data);
-    printf("Size of structure %d\n",sizeof(struct node));
-
+    printf("Size of Structure is %d\n",sizeof(struct node));
     return 0;
 }

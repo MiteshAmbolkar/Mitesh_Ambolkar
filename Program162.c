@@ -10,6 +10,6 @@ struct node
 int main()
 {
     struct node *Head = NULL;
-
+    
     return 0;
 }
